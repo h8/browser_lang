@@ -1,0 +1,16 @@
+{application, browser_lang,
+ [{description, "Http language and locale headers parse functions."},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, ["Dmitry Stropalov <d.stropalov@gmail.com>"]},
+  {licenses, ["Apache 2.0"]},
+  {links, [{"Github", "https://github.com/h8/browser_lang"}]},
+  {build_tools, ["rebar3"]}
+ ]}.
